@@ -1,0 +1,417 @@
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: black;
+    color: white;
+    /* Set text color to white for better visibility on a black background */
+    margin: 0;
+    /* Remove default margin */
+    padding: 0;
+    /* Remove default padding */
+}
+
+.container-fluid {
+    background-color: black;
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.nav-item {
+    color: white;
+}
+
+.dropdown-menu {
+    color: white;
+}
+
+
+
+.dropdown-menu {
+    color: white;
+}
+
+.hpart4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 3em;
+    margin-right: 3em;
+    gap: 2em;
+}
+
+.hpleft {
+    padding-top: 3em;
+    padding-bottom: 3em;
+    width: 70%;
+}
+
+.hpright {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hpright img {
+    width: 300px;
+}
+
+.hpbtn {
+    display: flex;
+    gap: 1em;
+}
+
+.hpfrist {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 0.5em 1em 0.5em 1em;
+}
+
+.hpfrist:hover {
+
+    color: white;
+    background-color: black;
+    padding: 10px 20px 10px 20px;
+    border-radius: 30px;
+}
+
+.hpsecond {
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 35px;
+    padding: 0.5em 1em 0.5em 1em;
+}
+
+.hpsecond:hover {
+
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    padding: 10px 20px 10px 20px;
+    border-radius: 30px;
+}
+
+@media (max-width: 1030px) {
+    .hpright img {
+        width: 300px;
+    }
+}
+
+@media (max-width:750px) {
+    .hpart4 {
+        flex-direction: column-reverse;
+    }
+
+    .hpleft {
+        width: 100%;
+    }
+
+    .hpright {
+        width: 100%;
+    }
+
+    .hpright img {
+        width: 500px;
+    }
+}
+
+@media (max-width: 524px) {
+    .hpright img {
+        width: 300px;
+    }
+}
+
+.hpart6 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em;
+    padding-right: 1em;
+    gap: 2em;
+}
+
+.hpleft2 {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2em;
+    padding-right: 2em;
+}
+
+.hpright2 p {
+    width: 90%;
+}
+
+.hpright2 {
+    padding-top: 5em;
+    padding-bottom: 3em;
+    width: 90%;
+}
+
+.hpleft2 img {
+    width: 500px;
+}
+
+.hpbtn3 {
+    display: flex;
+    gap: 2em;
+}
+
+.hpfrist {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 0.5em 1em 0.5em 1em;
+}
+
+.hpsecond {
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 35px;
+    padding: 0.5em 1em 0.5em 1em;
+}
+
+@media (max-width: 1030px) {
+    .hpleft2 img {
+        width: 300px;
+    }
+}
+
+@media (max-width:750px) {
+    .hpart6 {
+        flex-direction: column;
+    }
+
+    .hpleft2 {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hpright2 {
+        width: 100%;
+    }
+
+    .hpleft2 img {
+        width: 500px;
+    }
+}
+
+@media (max-width: 524px) {
+    .hpleft2 img {
+        width: 300px;
+    }
+}
+
+.hpart7 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em;
+    padding-right: 1em;
+    gap: 2em;
+}
+
+.hpleft3 {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2em;
+    padding-right: 2em;
+}
+
+.hpright3 p {
+    width: 90%;
+}
+
+.hpright3 {
+    padding-top: 5em;
+    padding-bottom: 3em;
+    width: 90%;
+}
+
+.hpleft3 img {
+    width: 500px;
+}
+
+.hpbtn4 {
+    display: flex;
+    gap: 2em;
+}
+
+.hpfrist {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 0.5em 1em 0.5em 1em;
+}
+
+.hpsecond {
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 35px;
+    padding: 0.5em 1em 0.5em 1em;
+}
+
+@media (max-width: 1030px) {
+    .hpleft3 img {
+        width: 300px;
+    }
+
+}
+
+@media (max-width: 750px) {
+    .hpart7 {
+        flex-direction: column-reverse;
+    }
+
+    .hpleft3 {
+        width: 100%;
+    }
+
+    .hpright3 {
+        width: 100%;
+    }
+
+    .hpleft3 img {
+        width: 500px;
+    }
+}
+
+.hpart8 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em;
+    padding-right: 1em;
+    gap: 2em;
+}
+
+.hpleft4 {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2em;
+    padding-right: 2em;
+}
+
+.hpright4 p {
+    width: 90%;
+}
+
+.hpright4 {
+    padding-top: 5em;
+    padding-bottom: 3em;
+    width: 90%;
+}
+
+.hpleft4 img {
+    width: 500px;
+}
+
+.hpbtn5 {
+    display: flex;
+    gap: 2em;
+}
+
+.hpfrist {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 0.5em 1em 0.5em 1em;
+}
+
+.hpsecond {
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 35px;
+    padding: 0.5em 1em 0.5em 1em;
+}
+
+
+.fut {
+    margin: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+
+}
+
+.links li {
+    list-style: none;
+
+}
+
+.lang {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    padding: 10px;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+
+}
+
+.lang li {
+    list-style: none;
+}
+
+.copy {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.start {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.start li {
+    list-style: none;
+
+}
+
+.end {
+    list-style: none;
+}
+
+@media (max-width:736px) {
+    .links {
+        flex-direction: column;
+    }
+
+    .copy {
+        flex-direction: column;
+    }
+}
